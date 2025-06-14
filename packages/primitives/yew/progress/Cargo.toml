@@ -1,0 +1,16 @@
+[package]
+name = "radix-yew-progress"
+description = "Yew port of Radix Progress."
+homepage = ""
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+web-sys.workspace = true
+yew.workspace = true
+yew-struct-component.workspace = true
+yew-style.workspace = true

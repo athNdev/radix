@@ -3510,6 +3510,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "radix-yew-progress"
+version = "0.0.2"
+dependencies = [
+ "web-sys",
+ "yew",
+ "yew-struct-component",
+ "yew-style",
+]
+
+[[package]]
 name = "radix-yew-scroll-area"
 version = "0.0.2"
 dependencies = [
