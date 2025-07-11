@@ -32,6 +32,13 @@ pub fn App() -> Html {
             <LabelDemo />
         });
     }
+    #[cfg(feature = "progress")]
+    {
+        use crate::progress::ProgressDemo;
+        children.push(html! {
+            <ProgressDemo />
+        });
+    }
     #[cfg(feature = "select")]
     {
         use crate::select::SelectDemo;

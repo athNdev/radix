@@ -3344,6 +3344,7 @@ dependencies = [
  "radix-yew-checkbox",
  "radix-yew-icons",
  "radix-yew-label",
+ "radix-yew-progress",
  "radix-yew-select",
  "radix-yew-separator",
  "radix-yew-switch",

@@ -8,6 +8,8 @@ mod avatar;
 mod checkbox;
 #[cfg(feature = "label")]
 mod label;
+#[cfg(feature = "progress")]
+mod progress;
 #[cfg(feature = "select")]
 mod select;
 #[cfg(feature = "separator")]

@@ -18,6 +18,7 @@ radix-yew-avatar = { workspace = true, optional = true }
 radix-yew-checkbox = { workspace = true, optional = true }
 radix-yew-icons = { workspace = true, optional = true }
 radix-yew-label = { workspace = true, optional = true }
+radix-yew-progress = { workspace = true, optional = true}
 radix-yew-select = { workspace = true, optional = true }
 radix-yew-separator = { workspace = true, optional = true }
 radix-yew-switch = { workspace = true, optional = true }
@@ -30,6 +31,7 @@ default = [
     "avatar",
     "checkbox",
     "label",
+    "progress",
     "select",
     "separator",
     "switch",
@@ -39,6 +41,7 @@ aspect-ratio = ["dep:radix-yew-aspect-ratio"]
 avatar = ["dep:radix-yew-avatar"]
 checkbox = ["dep:radix-yew-checkbox", "dep:radix-yew-icons"]
 label = ["dep:radix-yew-label"]
+progress = ["dep:radix-yew-progress"]
 select = ["dep:radix-yew-select", "dep:radix-yew-icons"]
 separator = ["dep:radix-yew-separator"]
 switch = ["dep:radix-yew-switch"]

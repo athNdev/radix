@@ -94,6 +94,7 @@ radix-yew-focus-scope = { path = "./packages/primitives/yew/focus-scope", versio
 radix-yew-icons = { path = "./packages/icons/yew", version = "0.0.2" }
 radix-yew-id = { path = "./packages/primitives/yew/id", version = "0.0.2" }
 radix-yew-label = { path = "./packages/primitives/yew/label", version = "0.0.2" }
+radix-yew-progress= { path = "./packages/primitives/yew/progress", version="0.0.2" }
 radix-yew-popper = { path = "./packages/primitives/yew/popper", version = "0.0.2" }
 radix-yew-portal = { path = "./packages/primitives/yew/portal", version = "0.0.2" }
 radix-yew-presence = { path = "./packages/primitives/yew/presence", version = "0.0.2" }
